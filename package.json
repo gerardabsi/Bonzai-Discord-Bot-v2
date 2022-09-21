@@ -1,0 +1,28 @@
+{
+  "name": "bonzai-bot",
+  "version": "1.0.0",
+  "description": "A discord bot made for the Bonzai company",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Nariah",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/voice": "^0.9.0",
+    "axios": "^0.27.2",
+    "discord.js": "^13.9.2",
+    "driftless": "^2.0.3",
+    "ffmpeg-static": "^5.0.2",
+    "fs": "^0.0.1-security",
+    "libsodium-wrappers": "^0.7.10",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.18",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}
