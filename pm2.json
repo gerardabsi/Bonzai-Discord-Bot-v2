@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "keycloak-idp",
+      "script": "app.js",
+      "instances": 8,
+      "max_restarts": 20,
+      "max_memory_restart": "1024M",
+      "env": {
+        "APP_PORT": 2230,
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
