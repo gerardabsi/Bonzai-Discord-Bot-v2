@@ -22,7 +22,7 @@ for (const folder of commandFolders) {
     .filter((file) => file.endsWith('.js'));
 
   for (const file of commandFiles) {
-    const command = require(`./commands/${folder}/${file}`);
+    const command = require(`./app/commands/${folder}/${file}`);
     client.commands.set(command.name, command);
   }
 }

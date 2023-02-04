@@ -11,7 +11,8 @@
 FROM keymetrics/pm2:latest-alpine
 
 # Bundle APP files
-COPY ./ .
+COPY app .
+COPY package.json .
 COPY ecosystem.config.js .
 
 # Install app dependencies

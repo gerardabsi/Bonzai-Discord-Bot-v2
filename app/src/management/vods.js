@@ -1,5 +1,5 @@
 const db = require('../../database/database');
-const requests = require('../../src/utils/requests');
+const requests = require('../utils/requests');
 
 const processVod = async function (videoUrl, interaction) {
   const duplicateVod = await db.vods.findOne({ url: videoUrl });

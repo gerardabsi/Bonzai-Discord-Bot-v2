@@ -2,10 +2,10 @@
   "name": "bonzai-bot",
   "version": "1.0.0",
   "description": "A discord bot made for the Bonzai company",
-  "main": "index.js",
+  "main": "app/index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node app/index.js",
+    "dev": "nodemon app/index.js"
   },
   "author": "Nariah",
   "license": "ISC",
