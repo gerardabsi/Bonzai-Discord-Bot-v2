@@ -4,3 +4,5 @@ COPY src .
 COPY package.json .
 COPY pm2.json .
 RUN npm install --production
+
+CMD [ "node", "app.js" ]
